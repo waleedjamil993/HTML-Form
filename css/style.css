@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+div{
+    background-color: #A1A2A2;
+    margin: 20px 10px;
+    padding: 20px 8px;
+    border-radius: 4px;
+}
+
+label{
+    color: #ffffff;
+    font-family: 'arial';
+}
+
+input[type="text"],[type="email"],[type="number"]{
+    width: 100%;
+    padding: 10px 8px;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline-block;
+    margin-block-end: 10px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: #D8EA1C;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #8aea1c;
+    cursor: pointer;
+}
